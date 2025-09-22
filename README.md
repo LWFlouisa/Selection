@@ -1,6 +1,9 @@
 # Selection
 A suite of functions designed for AI systems and traffic analyses, and analyses vulnerabilities specific to my own systems.
 
+## Special Thanks
+Before we begin I'd like to thank Igrigorik and Red Davis for introducing me to decision trees and naive bayes. This was infinitely helpful when I was starting out.
+
 ## Version
 Ruby 3.2.3 or higher
 
