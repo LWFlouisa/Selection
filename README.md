@@ -97,7 +97,7 @@ end
 gets.chomp
 ~~~
 
-## Naisettelytique
+## Le Maisettelytique
 ~~~ruby
 require "Selection"
 
