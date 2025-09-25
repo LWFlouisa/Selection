@@ -1,4 +1,4 @@
-translations = {
+translation = {
   "Le"  => "The",
   "La"  => "The",
   "Les" => "The",
@@ -27,7 +27,7 @@ col_options = [0, 1, 2]
 arr_options = [0, 1, 2]
 
 cur_row = row_options.sample
-cur_col = cur_options.sample
+cur_col = col_options.sample
 cur_arr = arr_options.sample
 
 current_word = word_types[cur_row][cur_col][cur_arr]
@@ -44,11 +44,12 @@ if    current_word ==    genders;
   arr_options = [0, 1, 2]
 
   cur_row = row_options.sample
-  cur_col = cur_options.sample
+  cur_col = col_options.sample
   cur_arr = arr_options.sample
 
   current_option = possible_words[cur_row][cur_col][cur_arr]
   
+  print "#{current_option}: "
   puts genders[current_option]
 elsif current_word ==      nouns;
   p = "pomme"
@@ -66,11 +67,12 @@ elsif current_word ==      nouns;
   arr_options = [0, 1, 2]
 
   cur_row = row_options.sample
-  cur_col = cur_options.sample
+  cur_col = col_options.sample
   cur_arr = arr_options.sample
 
   current_option = possible_words[cur_row][cur_col][cur_arr]
-  
+
+  print "#{current_option}: "
   puts nouns[current_option]
 elsif current_word == adjectives;
   r = "rouge"
@@ -88,11 +90,12 @@ elsif current_word == adjectives;
   arr_options = [0, 1, 2]
 
   cur_row = row_options.sample
-  cur_col = cur_options.sample
+  cur_col = col_options.sample
   cur_arr = arr_options.sample
 
   current_option = possible_words[cur_row][cur_col][cur_arr]
-  
+
+  print "#{current_option}: "
   puts adjectives[current_option]
 else
   puts "No translation available."
