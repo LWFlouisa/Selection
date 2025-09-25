@@ -97,6 +97,27 @@ end
 gets.chomp
 ~~~
 
+## Naisettelytique
+~~~ruby
+require "Selection"
+
+a = cette("le fascisimo",           "viola")
+b = maisette("le communistes",      "rouge")
+c = sinon("le verts du etats-unis",  "vert")
+
+get_statistics(:fascists,   "#{a}",
+               :communists, "#{b}",
+               :greens.     "#{c}")
+               
+               reasses
+               reasses
+               reasses
+
+ouvert("_info/fascists.txt",   "#{a}",
+       "_info/communists.txt", "#{b}",
+       "_info/greens.txt",     "#{c}")
+~~~
+
 ## Work In Progress
 ~~~
 analyze_traffic
