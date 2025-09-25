@@ -1,0 +1,47 @@
+~~~mermaid
+graph LR
+  id0["word_origin function"] --- id1["Relevant Symbols: french, not french"];  style id1 stroke:#c6262e,stroke-width:4px;  linkStyle 0 stroke:#c6262e,stroke-width:4px;
+  id1["Relevant Symbols: french, not french"] --- id8["cette mot es francais"];  style id8 stroke:#c6262e,stroke-width:4px;  linkStyle 1 stroke:#c6262e,stroke-width:4px;
+  id8["cette mot es francais"] --- id24["append to french word index"];  style id24 stroke:#c6262e,stroke-width:4px;  linkStyle 2 stroke:#c6262e,stroke-width:4px;
+  id24["append to french word index"] --- id39["reorder output in higher order index for french index"];  style id39 stroke:#c6262e,stroke-width:4px;  linkStyle 3 stroke:#c6262e,stroke-width:4px;
+  id1["Relevant Symbols: french, not french"] --- id9["maisette mot es francais"];  style id9 stroke:#c6262e,stroke-width:4px;  linkStyle 4 stroke:#c6262e,stroke-width:4px;
+  id9["maisette mot es francais"] --- id25["append to not french word index"];  style id25 stroke:#c6262e,stroke-width:4px;  linkStyle 5 stroke:#c6262e,stroke-width:4px;
+  id25["append to not french word index"] --- id44["reorder output in higher order for non french word index"];  style id44 stroke:#c6262e,stroke-width:4px;  linkStyle 6 stroke:#c6262e,stroke-width:4px;
+  id1["Relevant Symbols: french, not french"] --- id10["sinon processing"];  style id10 stroke:#c6262e,stroke-width:4px;  linkStyle 7 stroke:#c6262e,stroke-width:4px;
+  id10["sinon processing"] --- id26["otherwise append to unknown words"];  style id26 stroke:#c6262e,stroke-width:4px;  linkStyle 8 stroke:#c6262e,stroke-width:4px;
+  id0["word_origin function"] --- id2["Relevant Symbols: japanese, not japanese"];  style id2 stroke:#f37329,stroke-width:4px;  linkStyle 9 stroke:#f37329,stroke-width:4px;
+  id2["Relevant Symbols: japanese, not japanese"] --- id11["cette mot es nihongo"];  style id11 stroke:#f37329,stroke-width:4px;  linkStyle 10 stroke:#f37329,stroke-width:4px;
+  id11["cette mot es nihongo"] --- id27["append to japanese word index"];  style id27 stroke:#f37329,stroke-width:4px;  linkStyle 11 stroke:#f37329,stroke-width:4px;
+  id27["append to japanese word index"] --- id40["reorder output in higher order index for japanese index"];  style id40 stroke:#f37329,stroke-width:4px;  linkStyle 12 stroke:#f37329,stroke-width:4px;
+  id2["Relevant Symbols: japanese, not japanese"] --- id12["maisette mot es ne nihongo"];  style id12 stroke:#f37329,stroke-width:4px;  linkStyle 13 stroke:#f37329,stroke-width:4px;
+  id12["maisette mot es ne nihongo"] --- id28["append to non japanese word index"];  style id28 stroke:#f37329,stroke-width:4px;  linkStyle 14 stroke:#f37329,stroke-width:4px;
+  id28["append to non japanese word index"] --- id45["reorder output in higher order for non japanese index"];  style id45 stroke:#f37329,stroke-width:4px;  linkStyle 15 stroke:#f37329,stroke-width:4px;
+  id2["Relevant Symbols: japanese, not japanese"] --- id13["sinon processing"];  style id13 stroke:#f37329,stroke-width:4px;  linkStyle 16 stroke:#f37329,stroke-width:4px;
+  id13["sinon processing"] --- id29["otherwise append to unknown words"];  style id29 stroke:#f37329,stroke-width:4px;  linkStyle 17 stroke:#f37329,stroke-width:4px;
+  id0["word_origin function"] --- id3["Relevant Symbols: german, not german"];  style id3 stroke:#f9c440,stroke-width:4px;  linkStyle 18 stroke:#f9c440,stroke-width:4px;
+  id3["Relevant Symbols: german, not german"] --- id14["cette mot es allemane"];  style id14 stroke:#f9c440,stroke-width:4px;  linkStyle 19 stroke:#f9c440,stroke-width:4px;
+  id14["cette mot es allemane"] --- id30["append to german word index"];  style id30 stroke:#f9c440,stroke-width:4px;  linkStyle 20 stroke:#f9c440,stroke-width:4px;
+  id30["append to german word index"] --- id41["reorder output in higher order index for german word index"];  style id41 stroke:#f9c440,stroke-width:4px;  linkStyle 21 stroke:#f9c440,stroke-width:4px;
+  id3["Relevant Symbols: german, not german"] --- id15["maisette mot es ne allemane"];  style id15 stroke:#f9c440,stroke-width:4px;  linkStyle 22 stroke:#f9c440,stroke-width:4px;
+  id15["maisette mot es ne allemane"] --- id31["append to not german word index"];  style id31 stroke:#f9c440,stroke-width:4px;  linkStyle 23 stroke:#f9c440,stroke-width:4px;
+  id31["append to not german word index"] --- id46["reorder output in higher order for non german word index"];  style id46 stroke:#f9c440,stroke-width:4px;  linkStyle 24 stroke:#f9c440,stroke-width:4px;
+  id3["Relevant Symbols: german, not german"] --- id16["sinon processing"];  style id16 stroke:#f9c440,stroke-width:4px;  linkStyle 25 stroke:#f9c440,stroke-width:4px;
+  id16["sinon processing"] --- id32["otherwise append to unknown words"];  style id32 stroke:#f9c440,stroke-width:4px;  linkStyle 26 stroke:#f9c440,stroke-width:4px;
+  id0["word_origin function"] --- id4["Relevant Symbols: hybrid, not hybrid"];  style id4 stroke:#68b723,stroke-width:4px;  linkStyle 27 stroke:#68b723,stroke-width:4px;
+  id4["Relevant Symbols: hybrid, not hybrid"] --- id17["cette mot es un hybride"];  style id17 stroke:#68b723,stroke-width:4px;  linkStyle 28 stroke:#68b723,stroke-width:4px;
+  id17["cette mot es un hybride"] --- id33["append to hybrd word index"];  style id33 stroke:#68b723,stroke-width:4px;  linkStyle 29 stroke:#68b723,stroke-width:4px;
+  id33["append to hybrd word index"] --- id42["reorder output in higher order index for hybrid unknown words"];  style id42 stroke:#68b723,stroke-width:4px;  linkStyle 30 stroke:#68b723,stroke-width:4px;
+  id4["Relevant Symbols: hybrid, not hybrid"] --- id18["maisette mot es ne un hybride"];  style id18 stroke:#68b723,stroke-width:4px;  linkStyle 31 stroke:#68b723,stroke-width:4px;
+  id18["maisette mot es ne un hybride"] --- id48["append to not hybrid word index"];  style id48 stroke:#68b723,stroke-width:4px;  linkStyle 32 stroke:#68b723,stroke-width:4px;
+  id48["append to not hybrid word index"] --- id49["reorder output in higher order index for non hybrid word index"];  style id49 stroke:#68b723,stroke-width:4px;  linkStyle 33 stroke:#68b723,stroke-width:4px;
+  id4["Relevant Symbols: hybrid, not hybrid"] --- id19["sinon processing"];  style id19 stroke:#68b723,stroke-width:4px;  linkStyle 34 stroke:#68b723,stroke-width:4px;
+  id19["sinon processing"] --- id35["otherwise append to unknown words"];  style id35 stroke:#68b723,stroke-width:4px;  linkStyle 35 stroke:#68b723,stroke-width:4px;
+  id0["word_origin function"] --- id6["Relevant Symbols: unknown origin, known origin"];  style id6 stroke:#3689e6,stroke-width:4px;  linkStyle 36 stroke:#3689e6,stroke-width:4px;
+  id6["Relevant Symbols: unknown origin, known origin"] --- id20["cette mot es unknown"];  style id20 stroke:#3689e6,stroke-width:4px;  linkStyle 37 stroke:#3689e6,stroke-width:4px;
+  id20["cette mot es unknown"] --- id36["append to unknown word index"];  style id36 stroke:#3689e6,stroke-width:4px;  linkStyle 38 stroke:#3689e6,stroke-width:4px;
+  id36["append to unknown word index"] --- id43["reorder output in higher order index for unknown word index"];  style id43 stroke:#3689e6,stroke-width:4px;  linkStyle 39 stroke:#3689e6,stroke-width:4px;
+  id6["Relevant Symbols: unknown origin, known origin"] --- id21["cette mot es ne unknown"];  style id21 stroke:#3689e6,stroke-width:4px;  linkStyle 40 stroke:#3689e6,stroke-width:4px;
+  id21["cette mot es ne unknown"] --- id37["append to not unsolved word index"];  style id37 stroke:#3689e6,stroke-width:4px;  linkStyle 41 stroke:#3689e6,stroke-width:4px;
+  id6["Relevant Symbols: unknown origin, known origin"] --- id22["sinon processing"];  style id22 stroke:#3689e6,stroke-width:4px;  linkStyle 42 stroke:#3689e6,stroke-width:4px;
+  id22["sinon processing"] --- id38["otherwise append to root word queue, and order in higher order matrix."];  style id38 stroke:#3689e6,stroke-width:4px;  linkStyle 43 stroke:#3689e6,stroke-width:4px;
+~~~
