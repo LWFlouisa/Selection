@@ -7,6 +7,9 @@ Before we begin I'd like to thank Igrigorik and Red Davis for introducing me to 
 ## Version
 Ruby 3.2.3 or higher
 
+## Research And Development
+[Research And Developement](https://github.com/LWFlouisa/CreolizedRubyDSL)
+
 ## Install
 This will default to Gemfiles.
 
